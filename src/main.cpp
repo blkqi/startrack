@@ -7,7 +7,7 @@
 
 #define gearTeethSpur 52
 #define gearTeethPinion 16
-#define stepsPerRevolution 4076 // 63.68395 * 64 (28BYJ-48)
+#define stepsPerRevolution (63.68395 * 64) // 28BYJ-48
 
 AccelStepper stepper(AccelStepper::HALF4WIRE, motorPin1, motorPin3, motorPin2, motorPin4);
 
